@@ -11,9 +11,12 @@ else
 
 set -e
 BUILD_DIR=`pwd`
-WORKING_DIR="${BUILD_DIR}/TMP"
-RELEASE_DIR="${BUILD_DIR}/releases"
-DIST_DIR="${RELEASE_DIR}/build"
+WORKING_DIR="${BUILD_DIR}/src"
+DIST_DIR="${BUILD_DIR}/dist"
+cd pwd/src/Service
+make>dist
+cd pwd/src/apk
+make>dist
 CONFIG_FILE="${BUILD_DIR}/config.json"
 
 get_value_by_key() {
