@@ -14,6 +14,10 @@ BUILD_DIR=`pwd`
 WORKING_DIR="${BUILD_DIR}/TMP"
 RELEASE_DIR="${BUILD_DIR}/releases"
 DIST_DIR="${RELEASE_DIR}/build"
+cd src/Service
+make>dist
+cd src/apk
+make/dist
 CONFIG_FILE="${BUILD_DIR}/config.json"
 
 get_value_by_key() {
