@@ -1,0 +1,9 @@
+Êþº¾   6 
+   
+       <init> ()V Code LineNumberTable getServiceFromJNI ()Z <clinit> 
+SourceFile NativeClass.java    	jniClient     *com/example/wenwen1zhang/myapp/NativeClass java/lang/Object java/lang/System 
+loadLibrary (Ljava/lang/String;)V !                     *??   	       	 
+ 
+           "      ??   	   
+         
+    
